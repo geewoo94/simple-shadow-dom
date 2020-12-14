@@ -1,0 +1,26 @@
+{
+  "name": "simpleshadowdom",
+  "version": "1.0.0",
+  "description": "use shadow-dom easily",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geewoo94/simple-shadow-dom.git"
+  },
+  "keywords": [
+    "shadow-dom",
+    "web-api"
+  ],
+  "author": "geewoo94@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geewoo94/simple-shadow-dom/issues"
+  },
+  "homepage": "https://github.com/geewoo94/simple-shadow-dom#readme",
+  "dependencies": {
+    "css-flatten": "^1.0.1"
+  }
+}
