@@ -4,11 +4,11 @@ declare module 'simple-shadow-dom' {
 
     static setEachStyle: (css: string) => void
 
-    setTemplate: (template: string | ((...props: any) => string)) => void;
+    setTemplate: (template: string | ((props: any) => string)) => void;
 
     setStyle: (css: string) => void;
 
-    setState: (...state: any) => void;
+    setState: (state: any) => void;
 
     render: () => void;
   }
