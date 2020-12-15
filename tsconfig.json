@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "deploy/dist",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "typeRoots": ["./@types"]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ],
+  "types": [
+    "chrome"
+  ],
+  "declaration": true,
+  "declarationDir": "./src/types/store-lib",
+}
