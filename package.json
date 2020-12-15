@@ -1,6 +1,6 @@
 {
   "name": "simple-shadow-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use shadow-dom easily",
   "main": "src/index.js",
   "scripts": {
