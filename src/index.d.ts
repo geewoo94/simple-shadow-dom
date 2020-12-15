@@ -1,6 +1,6 @@
 declare module 'simple-shadow-dom' {
   export default class simpleShadowDom extends HTMLElement {
-    static render: (root: HTMLElement, shadowClass: simpleShadowDom, tagName: string) => void;
+    static render: (root: HTMLElement, shadowClass: typeof simpleShadowDom, tagName: string) => void;
 
     static setEachStyle: (css: string) => void
 
