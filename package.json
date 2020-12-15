@@ -4,7 +4,7 @@
   "description": "use shadow-dom easily",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,12 @@
   "homepage": "https://github.com/geewoo94/simple-shadow-dom#readme",
   "dependencies": {
     "css-flatten": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@types/jest": "^26.0.19",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
   }
 }
