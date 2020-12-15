@@ -8,7 +8,7 @@ import {
   append,
   remove,
   matchTagName,
-} from './utils';
+} from './utils.js';
 
 export default class simpleShadowDom extends HTMLElement {
   static render(root, shadowClass, tagName) {

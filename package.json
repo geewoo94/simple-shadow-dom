@@ -1,5 +1,5 @@
 {
-  "name": "simpleshadowdom",
+  "name": "simple-shadow-dom",
   "version": "1.0.0",
   "description": "use shadow-dom easily",
   "main": "src/index.js",
