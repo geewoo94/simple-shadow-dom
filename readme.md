@@ -56,11 +56,11 @@ Type: (cssTemplate) => void
 
   simpleShadowDom.setEachStyle(cssTemplate)
 ~~~
-🔸 `ssd`로 생성한 모든 `shadow tree`에 작성한 `css`가 적용됩니다.
-🔸 `nested css`가 지원됩니다.
-🔺 `global css`와는 다르게 각각 컴포넌트에 `css`가 추가됩니다.
+- 🔸 `ssd`로 생성한 모든 `shadow tree`에 작성한 `css`가 적용됩니다.
+- 🔸 `nested css`가 지원됩니다.
+- 🔺 `global css`와는 다르게 각각 컴포넌트에 `css`가 추가됩니다.
 
-### <b style='color: #163D5C'>setTemplate</b>
+### setTemplate
 ~~~javascript
 Type: (htmlTemplate) => void
 ~~~
@@ -82,8 +82,8 @@ Type: (htmlTemplate) => void
     }
   }
 ~~~
-🔸 현재 컴포넌트에 `template`을 저장합니다.
-🔸 아래와 같이 변수를 받아 사용할수도 있습니다. 변수를 사용하는 방법은 <a href='#id'>setState</a> 참조
+- 🔸 현재 컴포넌트에 `template`을 저장합니다.
+- 🔸 아래와 같이 변수를 받아 사용할수도 있습니다. 변수를 사용하는 방법은 [setState](#setstate) 참조
 
 ~~~javascript
   const template = (state) => `
@@ -93,7 +93,7 @@ Type: (htmlTemplate) => void
   `
 ~~~
 
-### <b style='color: #163D5C'>setStyle</b>
+### setStyle
 ~~~javascript
 Type: (cssTemplate) => void
 ~~~
@@ -119,10 +119,10 @@ Type: (cssTemplate) => void
     }
   }
 ~~~
-🔸 현재 `shadow tree`에 작성한 `css`가 적용됩니다.
-🔸 `nested css`가 지원됩니다.
+- 🔸 현재 `shadow tree`에 작성한 `css`가 적용됩니다.
+- 🔸 `nested css`가 지원됩니다.
 
-### <b style='color: #163D5C'>setState</b>
+### setState
 ~~~javascript
 Type: (props) => void
 ~~~
@@ -140,10 +140,10 @@ Type: (props) => void
     }
   }
 ~~~
-🔸 <a>render</a>메소드가 실행될때 `props`를 만들어뒀던 `template`에 주입합니다.
-🔸 `default props`는 `null`입니다.
+- 🔸 [render](#render)메소드가 실행될때 `props`를 만들어뒀던 `template`에 주입합니다.
+- 🔸 `default props`는 `null`입니다.
 
-### <b style='color: #163D5C'>render</b>
+### render
 ~~~javascript
 Type: (props) => void
 ~~~
@@ -159,7 +159,7 @@ Type: (props) => void
     }
   }
 ~~~
-🔸 저장해놨던 `template`과 `css`, `props`를 이용해서 실제 돔에 `rendering`합니다.
+- 🔸 저장해놨던 `template`과 `css`, `props`를 이용해서 실제 돔에 `rendering`합니다.
 
 ## Dependencies
 ### css-flatten
