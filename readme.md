@@ -145,7 +145,7 @@ Type: (props) => void
 
 ### render
 ~~~javascript
-Type: (props) => void
+Type: () => void
 ~~~
 ~~~javascript
   import simpleShadowDom from 'simple-shadow-dom'
